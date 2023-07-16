@@ -7,7 +7,7 @@ namespace imageDirect\Atmosphere;
 /**
  * Plugin Name:       imageDirect Atmosphere
  * Plugin URI:        <https://www.imagedirect.com.au/>
- * Description:       Get found in the noise.
+ * Description:       This is the development environment plugin for imageDirect - Get found in the noise.
  * Requires at least: 6.0
  * Requires PHP:      8.0
  * Version:           1.0.0
