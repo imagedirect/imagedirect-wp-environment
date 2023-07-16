@@ -1,0 +1,26 @@
+{
+    "core": null,
+    "plugins": [
+        ".",
+        "https://downloads.wordpress.org/plugin/gutenberg.zip",
+        "https://downloads.wordpress.org/plugin/instant-images.zip",
+        "https://downloads.wordpress.org/plugin/duplicate-post.zip"
+    ],
+    "themes": [
+        "imagedirect/imagedirect-wordpress-pro#main"
+    ],
+    "phpVersion": "8.1",
+    "port": 8888,
+    "testsPort": 8889,
+    "config": {
+        "WP_DEBUG_DISPLAY": true
+    },
+    "mappings": {
+        "wp-content/mu-plugins": "./mu-plugins",
+        "wp-content/plugins": "./plugins",
+        "wp-content/themes": "./themes"
+    },
+    "lifecycleScripts": {
+        "afterStart": "npm -v"
+    }
+}

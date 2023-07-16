@@ -1,0 +1,21 @@
+{
+  "name": "imagedirect-atmosphere",
+  "version": "1.0.0",
+  "description": "Get found in the noise",
+  "main": "/build/index.js",
+  "author": "imageDirect",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "Wordpress",
+    "Gutenberg"
+  ],
+  "scripts": {
+    "wp-env": "wp-env",
+    "wp-env:path": "wp-env install-path",
+    "wp-env:install-wp-importer": "wp-env run cli wp plugin install wordpress-importer",
+    "wp-env:permalink": "wp-env run cli 'wp rewrite structure /%category%/%postname%/'"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^8.3.0"
+  }
+}
