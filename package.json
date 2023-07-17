@@ -12,8 +12,7 @@
   "scripts": {
     "wp-env": "wp-env",
     "wp-env:path": "wp-env install-path",
-    "wp-env:install-wp-importer": "wp-env run cli wp plugin install wordpress-importer",
-    "wp-env:permalink": "wp-env run cli wp rewrite structure /%category%/%postname%/"
+    "wp-env:install-wp-importer": "wp-env run cli wp plugin install wordpress-importer"
   },
   "devDependencies": {
     "@wordpress/env": "^8.3.0"
