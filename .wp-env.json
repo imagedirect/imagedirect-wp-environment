@@ -6,9 +6,6 @@
         "https://downloads.wordpress.org/plugin/instant-images.zip",
         "https://downloads.wordpress.org/plugin/duplicate-post.zip"
     ],
-    "themes": [
-        "./themes/"
-    ],
     "phpVersion": "8.1",
     "port": 8888,
     "testsPort": 8889,
@@ -19,5 +16,8 @@
         "wp-content/mu-plugins": "./mu-plugins",
         "wp-content/plugins": "./plugins",
         "wp-content/themes": "./themes"
+    },
+    "lifecycleScripts": {
+        "afterStart": "wp-env run cli wp rewrite structure /%category%/%postname%/"
     }
 }
