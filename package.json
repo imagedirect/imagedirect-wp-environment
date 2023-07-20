@@ -15,7 +15,7 @@
     "wp-env:up-n-go": "wp-env start -- --update --scripts",
     "wp-env:path": "wp-env install-path",
     "wp-env:install-wp-importer": "wp-env run cli wp plugin install wordpress-importer",
-    "composer": "wp-env run cli --env-cwd=wp-content/plugins/gutenberg composer"
+    "composer": "wp-env run cli --env-cwd=wp-content/plugins/**plugin** composer"
   },
   "devDependencies": {
     "@wordpress/env": "^8.3.0"

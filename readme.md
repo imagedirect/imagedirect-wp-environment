@@ -17,6 +17,10 @@
 
 ## todo
 
+=== mappings {}
+
+- mappings to `themes` || `plugins` dir creates recursion if
+
 === `wp-env destroy` cmd failing
 
 - not removing cli test images
