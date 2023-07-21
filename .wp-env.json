@@ -6,6 +6,9 @@
         "https://downloads.wordpress.org/plugin/instant-images.zip",
         "https://downloads.wordpress.org/plugin/duplicate-post.zip"
     ],
+    "themes": [
+        "imagedirect/imagedirect-wordpress-pro#main"
+    ],
     "phpVersion": "8.1",
     "port": 8888,
     "testsPort": 8889,
