@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace imageDirect\Atmosphere;
+namespace imageDirect\Wordpress\Environment;
 
 /**
- * Plugin Name:       imageDirect Atmosphere
+ * Plugin Name:       imageDirect Wordpress Environment
  * Plugin URI:        <https://www.imagedirect.com.au/>
  * Description:       This is the development environment plugin for imageDirect - Get found in the noise.
- * Requires at least: 6.0
+ * Requires at least: 6.5
  * Requires PHP:      8.0
  * Version:           1.0.0
  * Author:            imageDirect
@@ -16,7 +16,7 @@ namespace imageDirect\Atmosphere;
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Contributors:      imageDirect WebTeam
- * Text Domain:       imagedirect-atmosphere
+ * Text Domain:       imagedirect-wp-environment
  */
 
 defined('ABSPATH') || exit;
