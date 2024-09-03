@@ -3,6 +3,7 @@
     "plugins": [
         ".",
         "https://downloads.wordpress.org/plugin/gutenberg.zip",
+        "https://downloads.wordpress.org/plugin/wordpress-importer.zip",
         "https://downloads.wordpress.org/plugin/instant-images.zip",
         "https://downloads.wordpress.org/plugin/duplicate-post.zip"
     ],
@@ -16,8 +17,5 @@
         "wp-content/mu-plugins": "./mu-plugins",
         "wp-content/plugins": "./plugins",
         "wp-content/themes": "./themes"
-    },
-    "lifecycleScripts": {
-        "afterStart": "wp-env run cli wp rewrite structure /%category%/%postname%/"
     }
 }

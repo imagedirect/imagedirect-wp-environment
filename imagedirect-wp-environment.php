@@ -10,7 +10,7 @@ namespace imageDirect\Wordpress\Environment;
  * Description:       This is the development environment plugin for imageDirect - Get found in the noise.
  * Requires at least: 6.5
  * Requires PHP:      8.0
- * Version:           1.0.0
+ * Version:           0.0.2
  * Author:            imageDirect
  * Author URI:        <https://www.imagedirect.com.au/>
  * License:           GPL-2.0-or-later
@@ -23,7 +23,7 @@ defined('ABSPATH') || exit;
 
 /**
  * Static
- * @since   1.0.0
+ * @since   0.0.1
  */
 function plugin(): Plugin
 {
@@ -39,13 +39,11 @@ function plugin(): Plugin
 
 /**
  * Plugin
- * @since   1.0.0
+ * @since   0.0.1
  */
 class Plugin
 {
-    public function load(): void
-    {
-    }
+    public function load(): void {}
 }
 
 add_action(
