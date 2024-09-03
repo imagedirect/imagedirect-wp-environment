@@ -11,7 +11,7 @@ namespace imageDirect\Wordpress\Environment;
  * Requires at least: 6.5
  * Requires PHP:      8.0
  * Version:           0.0.2
- * Author:            imageDirect
+ * Author:            imageDirect Pty Ltd
  * Author URI:        <https://www.imagedirect.com.au/>
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
